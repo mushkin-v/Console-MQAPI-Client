@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/mushkin-v/Console-MQAPI-Client.svg?branch=develop)](https://travis-ci.org/mushkin-v/Console-MQAPI-Client)
 #Console MQAPI Client
 ---
 It is a demo console client for MQAPI program which converts audio files.
