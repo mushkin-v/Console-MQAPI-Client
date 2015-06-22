@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Console\UploadCommand;
+use Console\StatusCommand;
+use Console\DownloadCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new UploadCommand());
+$application->add(new StatusCommand());
+$application->add(new DownloadCommand());
+$application->run();
