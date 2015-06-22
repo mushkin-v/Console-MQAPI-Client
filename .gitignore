@@ -1,6 +1,6 @@
 /web/bundles/
 !/web/uploads
-/web/uploads/*
+!/web/uploads/*
 !web/uploads/.gitkeep
 !/web/uploads/media
 /web/uploads/media/*
