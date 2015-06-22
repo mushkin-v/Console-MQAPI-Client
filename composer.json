@@ -8,7 +8,7 @@
   ],
 
   "require": {
-        "php": ">=5.3.3",
+	"php": ">=5.5.0",
         "symfony/console": "2.8.*@dev",
         "guzzlehttp/guzzle": "^6.0",
         "videlalvaro/php-amqplib": "2.2.*"
